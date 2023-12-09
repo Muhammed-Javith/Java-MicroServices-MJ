@@ -1,0 +1,19 @@
+2. Export Project as Executable:--
+=>Right Click on Project > Export
+=>Search Using “JAR” word
+=>Choose “Runnable JAR File”
+=>Select Main class to launch
+=>Browse for Location and Enter Jar name ex:- d/:myapps/factory.jar
+=>Finish
+Execute Jar:--
+=>Goto Location where JAR is created 
+=>Shift + Right Click
+=>Open cmd Window Here
+=>type below command
+‘java –jar factory.jar’
+Create a windows batch file:--
+=>Open notepad =>Type below commands
+ java -jar factory.jar
+=>and save with .bat extension
+Myapp.bat:--
+java -jar factory.jar
